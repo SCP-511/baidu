@@ -1,0 +1,12 @@
+爬取的站点需要做xpath配置，配置信息在builds/data/init_data.py, 项目部署时，需要通过此文件将数据初始化进数据库:
+python3 builds/data/init_data.py
+聚焦爬虫需要启动5个进程
+对应process_schedule.py process_category.py process_detail.py process_download.py process_page.py
+说明：
+【任务创建进程】python3 tutorial/process_schedule.py
+【爬取分类链接】python3 tutorial/process_category.py
+【爬取分页链接】python3 tutorial/process_page.py
+【爬取详情链接】python3 tutorial/process_detail.py
+【爬取下载链接】python3 tutorial/process_download.py
+
+

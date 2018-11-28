@@ -1,0 +1,7 @@
+scrapy
+eventlet
+pymongo
+lxml
+zope.interface==4.4.3
+scrapy_redis
+schedule
